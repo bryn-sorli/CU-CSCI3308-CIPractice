@@ -156,7 +156,7 @@ START_TEST(test_2d_area_triangle)
     b.x = 0;
     b.y = 10;
     c.x = 10;
-    x.y = 0;
+    c.y = 0;
 
     ck_assert(cord_2d_area_triangle(&a, &b, &c)==50);
 
@@ -165,7 +165,7 @@ START_TEST(test_2d_area_triangle)
     b.x = 0;
     b.y = 20;
     c.x = 20;
-    x.y = 0;
+    c.y = 0;
 
     ck_assert(cord_2d_area_triangle(&a, &b, &c)==100);
 
